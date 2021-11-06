@@ -5,7 +5,7 @@ let person={
 };
 // DOT NOTATION TO CHANGE THE VALUE 
 person.name = 'Buyo';
-// BRACKET NOTATION
+// BRACKET NOTATION 
 person ['age'] = 356;
 
 console.log(person.name)
