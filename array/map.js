@@ -1,4 +1,4 @@
-//map
+//map can be used in array
 // create new array from current araay 
 // create array of company names.
 const companies = [
