@@ -1,6 +1,6 @@
 const book1 = {
     title : "The pillow war" ,
-    author : "taralif bary",
+    author : "taralif garry",
     year : 2101,
     getSummary : function(){
         return `${this.title} is written by ${this.author} in the year ${this.year}`

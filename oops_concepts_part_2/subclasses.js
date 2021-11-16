@@ -21,6 +21,9 @@ class Magazine extends libraryy{
 
 // instantiate magazine
 
+const libb = new libraryy("colors","gandalf", "4001","lib09898");
 const mag1 = new Magazine ("Paints", "Val tropes","1993","lib0198", "feb");
 
 console.log(mag1.getSummary());
+
+console.log(libb.getSummary());
