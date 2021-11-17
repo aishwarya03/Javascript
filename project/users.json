@@ -1,0 +1,75 @@
+{
+    "type": "login",
+    "authentication": [
+        {
+            "name": "person one",
+            "email": "water@gmail.com",
+            "password": "wordpass",
+            "userID":"one1D"
+        },
+        {
+            "name": "person two",
+            "email": "air@gmail.com",
+            "password": "wordpass1",
+            "userID":"two2D"
+        },
+        {
+            "name": "person three",
+            "email": "earth@gmail.com",
+            "password": "wordpass2",
+            "userID":"three3D"
+        },
+        {
+            "name": "person four",
+            "email": "fire@gmail.com",
+            "password": "wordpass3",
+            "userID":"four4D"
+        },
+        {
+            "name": "person five",
+            "email": "plasma@gmail.com",
+            "password": "wordpass4",
+            "userID":"five5D"
+        }
+    ],
+    "display": {
+        "profile": [
+            {
+                "name": "person two",
+                "place": "hawaii",
+                "dateOfBirth": "03/08/1995",
+                "phoneNumber": "+1(900)(8889)876",
+                "userID":"two2D"
+            },
+            {
+                "name": "person one",
+                "place": "USA",
+                "dateOfBirth": "04/03/2012",
+                "phoneNumber": "+1(545)(8909)378",
+                "userID":"one1D"
+            },
+            
+            {
+                "name": "person three",
+                "place": "singapore",
+                "dateOfBirth": "31/09/2002",
+                "phoneNumber": "+42(555)(4444)909",
+                "userID":"three3D"
+            },
+            {
+                "name": "person four",
+                "place": "bangladesh",
+                "dateOfBirth": "09/04/2015",
+                "phoneNumber": "+45(879)(0000)232",
+                "userID":"four4D"
+            },
+            {
+                "name": "person five",
+                "place": "zambia",
+                "dateOfBirth": "01/01/2019",
+                "phoneNumber": "+5(909)(8787)111",
+                "userID":"five5D"
+            }
+        ]
+    }
+}
