@@ -5,51 +5,50 @@ let isUserExists = false;
 function loginAuthentication(emailId, userPassword) {
 
     for (let i = 0; i < userJson.authentication.length; i++) {
-        if (emailId == userJson.authentication[i].email && userPassword == userJson.authentication[i].password)
-         {
+        //console.log(userJson.authentication[i]);
+        if (emailId == userJson.authentication[i].email && userPassword == userJson.authentication[i].password) {
             for (let j = 0; j < userJson.display.profile.length; j++) {
                 if (userJson.authentication[i].userID == userJson.display.profile[j].userID)
                     console.log(userJson.display.profile[j])
-            }   
-            isUserExists = true; 
+            }
+            isUserExists=true;
         }
-      
+
     }
+     if(isUserExists == false){
+        whatIswrong(emailId,userPassword);
+    }
+}
+function  whatIswrong(emailId,userPassword){
+    let v = userJson.authentication.length + 1;
+    let flag = false;
+    for (let i = 0; i < userJson.authentication.length; i++) {
+        if (userJson.authentication[i].email == emailId) {
+            v = i;
+
+            flag = true;
+        }
 
 
-
-    // if(isUserExists == false ){
-    //     for (let i = 0; i < userJson.authentication.length; i++) {
-    //         if (userJson.authentication[i].email != emailId)
-    //          {
-    //         flag = true;
-    //             } 
-
-    //         }
-
-    //         if(flag == true){
-    //             console.log("email is wrong")
-    //         }
-    //         for (let j = 0; j < userJson.authentication.length; j++) {
-    //             if (userJson.authentication[j].email != emailId)
-    //              {
-    //             fflag = true;
-    //                 } 
+    }
+    if (flag == false) {
+        console.log("enter correct email")
+    }
     
-    //             }
-    //             if(fflag == true){
-    //                 console.log("password is wrong")
-    //             }
-            
-    // }
+    if (flag) {
 
-        
-    
-
+        if (userJson.authentication[v].password == userPassword) {
+            flag = true
+        }
+        else {
+            console.log("enter correct password")
+        }
+    }
 }
 
+
 let emailId = "water@gmail.com";
-let userPassword = "wordpass2";
+let userPassword = "wordpass";
 
 loginAuthentication(emailId, userPassword);
 
