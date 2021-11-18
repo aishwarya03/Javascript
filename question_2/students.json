@@ -1,0 +1,39 @@
+{
+    "type": "students",
+    "students": [
+        {
+            "name": "one",
+            "attendance": [
+                {
+                    "date": "01/01/2090",
+                    "isPresent": true
+                },
+                {
+                    "date": "02/01/2090",
+                    "isPresent": true
+                },
+                {
+                    "date": "03/01/2090",
+                    "isPresent": false
+                }
+                
+            ]
+        },
+        {
+            "name": "two",
+            "attendance": []
+        },
+        {
+            "name": "three",
+            "attendance": []
+        },
+        {
+            "name": "four",
+            "attendance": []
+        },
+        {
+            "name": "five",
+            "attendance": []
+        }
+    ]
+}
