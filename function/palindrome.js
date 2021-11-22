@@ -14,7 +14,7 @@ function palindrome(s){
     for (let i = 0; i < x; i++) {
         if( arr[i] != arr2[i])
         {
-            flag = false;
+        flag = false;
         }
         
     }
