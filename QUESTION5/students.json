@@ -1,0 +1,39 @@
+{
+    "type" : "database",
+    "students" : [
+        {
+            "firstname" : "JOHN",
+            "lastname" : "balooon",
+            "education" : "Bsc chemistry",
+            "phoneNumber" : "9859450",
+            "place" : "India",
+            "position" : "chemist"
+        },
+        {
+            "firstname" : "john",
+            "lastname" : "kite",
+            "education" : "Bsc physics",
+            "phoneNumber" : "9859450",
+            "place" : "usa",
+            "position" : "scientist"
+        },
+        {
+            "firstname" : "vence",
+            "lastname" : "topper",
+            "education" : "Bsc computer",
+            "phoneNumber" : "9859450",
+            "place" : "India",
+            "position" : "nuclear"
+        },
+        {
+            "firstname" : "john",
+            "lastname" : "kyle",
+            "education" : "phd",
+            "phoneNumber" : "9859450",
+            "place" : "India",
+            "position" : "particle analyst"
+        }
+    ]
+
+
+}
