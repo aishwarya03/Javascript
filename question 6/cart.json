@@ -1,0 +1,31 @@
+{
+    "type" : "shopping cart",
+     "cart" : [
+        {
+            "item" : "iPhone 13 pro max",
+             "value"  : 130000,
+             "qunatity" : 2
+        },
+        {
+            "item" : "tv",
+             "value"  : 23000,
+             "qunatity" : 2
+        },
+        {
+            "item" : "yoyo",
+             "value"  : 130,
+             "qunatity" : 4
+        },
+        {
+            "item" : "tv",
+             "value"  : 70,
+             "qunatity" : 5
+        },
+        {
+            "item" : "toilet seat covers",
+             "value"  : 10,
+             "qunatity" : 2
+        }
+        
+     ]
+}

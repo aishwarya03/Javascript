@@ -17,6 +17,7 @@ arr = ["we","oppo","loop","toor"]
 function fin (arr){
 
 for (let i = 0; i < arr.length; i++) {
+    console.log(i)
     if(arr[i] = "loop")
     console.log(arr[i]);
     break;

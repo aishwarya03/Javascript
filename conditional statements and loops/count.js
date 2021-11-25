@@ -7,20 +7,30 @@ function printRepeatedNumbers(a, k){
            if(a[i] == a[j]){
                count = count+1;
            }
-        //    continue;
-           
        }
        if(count >= k){
             newRepeat.push(a[i]);
        }
    }
+//    return newRepeat;
 
-   const newArray = newRepeat.filter((value) => {
-       return newRepeat.indexOf(value) === newRepeat.lastIndexOf(value);
-   });
+//    const newArray = newRepeat.filter((value) => {
+//     newRepeat.indexOf(value) === newRepeat.lastIndexOf(value);
+//     return newArray;
+//    });
 
+const newArray = newRepeat.filter(printRepeat)
+   return newArray;
+
+   
+function printRepeat(value,index) {
+    console.log("line:27", value, index)
+    if(newRepeat.indexOf(value) == index){
+        console.log("line:28", value, index)
+    return value
 }
-
+}
+}
 
 
 

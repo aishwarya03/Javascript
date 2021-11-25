@@ -26,12 +26,12 @@ const companies = [
 
   //Filter
 
-//   const canDrink = ages.filter(function (age) {
-//         if (age >=21) {
-//             return true;
+  const canDrink = ages.filter(function (age) {
+        if (age >=21) {
+            return true;
             
-//         }
-//     });
+        }
+    });
 
 //ES6 arrow function
 const canDrink = ages.filter(age => age >=21 );

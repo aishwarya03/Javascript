@@ -14,8 +14,11 @@ const companies = [
   
   //forEach
 companies.forEach(function (company, index, companies) {
+  
     console.log(company, index);
     
 });
+
+
 
   
