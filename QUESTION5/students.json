@@ -6,7 +6,7 @@
             "lastname" : "balooon",
             "education" : "Bsc chemistry",
             "phoneNumber" : "9859450",
-            "place" : "India",
+            "place" : "Jordon",
             "position" : "chemist"
         },
         {
@@ -14,7 +14,7 @@
             "lastname" : "kite",
             "education" : "Bsc physics",
             "phoneNumber" : "9859450",
-            "place" : "usa",
+            "place" : "malaysia",
             "position" : "scientist"
         },
         {
@@ -22,7 +22,7 @@
             "lastname" : "topper",
             "education" : "Bsc computer",
             "phoneNumber" : "9859450",
-            "place" : "India",
+            "place" : "singapore",
             "position" : "nuclear"
         },
         {
@@ -30,7 +30,7 @@
             "lastname" : "kyle",
             "education" : "phd",
             "phoneNumber" : "9859450",
-            "place" : "India",
+            "place" : "south korea",
             "position" : "particle analyst"
         }
     ]

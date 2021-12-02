@@ -51,7 +51,3 @@ let emailId = "water@gmail.com";
 let userPassword = "wordpass";
 
 loginAuthentication(emailId, userPassword);
-
-
-
-

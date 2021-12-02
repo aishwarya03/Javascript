@@ -10,8 +10,8 @@ const myObj = {
       let x;
       
   for (let i in myObj.cars) {
-    console.log("lineno: 13", i)
-    //console.log(myObj.cars[i])
+    //console.log("lineno: 13", i)
+    console.log(myObj.cars[i])
     x = myObj.cars[i].name;
     console.log(x);
   
@@ -26,4 +26,3 @@ const myObj = {
     }
 }}
 myObj.manufactureSummary();
-

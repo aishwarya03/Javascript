@@ -1,44 +1,44 @@
-// let myobj = {
-//     nname : "what",
-//     roll_no :"311513205001",
-//     education :"B.tech IT"
-// };
+let myobj = {
+    nname : "what",
+    roll_no :"311513205001",
+    education :"B.tech IT"
+};
 
-// const keyss = Object.keys(myobj);
-// console.log(keyss[1]);
+const keyss = Object.keys(myobj);
+console.log(keyss[1]);
 
 
 let x,y;
-// const person = {fname:"John", lname:"Doe", age:25}; 
-// let txt = [];
-// for (x in person) {
-// txt.push(person[x]);
+const person = {fname:"John", lname:"Doe", age:25}; 
+let txt = [];
+for (x in person) {
+txt.push(person[x]);
 
 
-// }
-// console.log(txt)
+}
+console.log(txt)
 
-// let arr = [1,2,3,4,5];
-// arr.push(6)
-// console.log(arr);
+let arr = [1,2,3,4,5];
+arr.push(6)
+console.log(arr);
 
-// let arr1 = ["a", "fsdfd"];
-// console.log(arr1.toString());
+let arr1 = ["a", "fsdfd"];
+console.log(arr1.toString());
 
-// console.log(arr1.join(""))
+console.log(arr1.join(""))
 
-// let str = "kjslkfdj";
-// console.log(str.split(""));
+let str = "kjslkfdj";
+console.log(str.split(""));
 
-// let arr11 = [1,"2"];
+let arr11 = [1,"2"];
 
-// console.log(arr1.concat(arr11));
+console.log(arr1.concat(arr11));
 
-// const hege = ["Cecilie", "Lone"];
-// const stale = ["Emil", "Tobias", "Linus"];
+const hege = ["Cecilie", "Lone"];
+const stale = ["Emil", "Tobias", "Linus"];
 
-// const children = hege.concat(stale);
-// console.log(hege,stale,children)
+const children = hege.concat(stale);
+console.log(hege,stale,children)
 
 let arr = [32, 3,55,5,66,77,8,1];
 

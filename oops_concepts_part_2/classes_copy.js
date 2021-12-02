@@ -1,5 +1,6 @@
+
 class libraryy {
-    constructor(title,author,year,idlib){
+     constructo (title,author,year,idlib){
         this.title = title;
         this.author = author;
         this.year = year;
@@ -21,15 +22,18 @@ class libraryy {
         this.year = newyear;
         this.revised = true;
         
+        
     }
     static Topbookstore(){
+        
         return ("barns and nobel");
     }
 }
 
 //instantiate class object
-
 const lib = new libraryy("the great war" , "Taria bennet", 2300 , "lib7821");
+
+
 
 //console.log(lib);
 

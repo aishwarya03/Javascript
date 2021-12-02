@@ -1,0 +1,25 @@
+{
+ "type" : [
+    {
+      "timestamp": "2019-01-15",
+      "purchases": [
+        { "product": "Product 1", "total": 20, "time": "09:00" },
+        { "product": "Product 1", "total": 60, "time": "12:00" }
+      ]
+    },
+    {
+      "timestamp": "2019-01-16",
+      "purchases": [
+        { "product": "Product 1", "total": 40, "time": "10:00" },
+        { "product": "Product 2", "total": 30, "time": "11:00" }
+      ]
+    },
+    {
+      "timestamp": "2019-01-17",
+      "purchases": [
+        { "product": "Product 1", "total": 10, "time": "14:00" },
+        { "product": "Product 2", "total": 20, "time": "17:00" }
+      ]
+    }
+  ]
+}

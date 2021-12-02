@@ -14,6 +14,3 @@ newObj.date = "03/01/2101";
 newArray.push({newObj})
 //newArray.push(newObj)
 console.log(newArray);
-
-
-

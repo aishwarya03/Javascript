@@ -2,18 +2,16 @@
 // replace "this" with "let" to hide the methods
 function Circle(radius){
     this.radius = radius;
-    let defaultLocation = { paid:1, notPaid :0}
-    let computeOptimumLocation = function(fees){
-        if(fees == 1){
-        return defaultLocation.paid;
+    let defaultLocation = { x:1, y :0}
+    let computeOptimumLocation = function(n){
+        if(n == 1){
+        return defaultLocation.x;
         }
         else{
-            return defaultLocation.notPaid;
+            return defaultLocation.y;
         }
     }
-
-
-//closure function
+    //closure function
 this.draw = function(){
     console.log(computeOptimumLocation(0));
     //defaultLocation

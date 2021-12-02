@@ -4,6 +4,7 @@ function printRepeatedNumbers(a, k){
    for (let i = 0; i < a.length; i++) {
        let count = 0
        for (let j = 1; j < a.length; j++) {
+           console.log(a[j])
            if(a[i] == a[j]){
                count = count+1;
            }
@@ -38,4 +39,3 @@ let a = [4, 5, 2, 5, 4, 3, 1, 3, 4];
 let k =2;
 
 console.log(printRepeatedNumbers(a,k));
-
